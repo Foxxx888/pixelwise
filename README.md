@@ -1,8 +1,20 @@
 # PIXELWISE
 
-This is a one-line project description of pixelwise, a full stack project
-that teaches students how to deploy a small machine learning product on
-a virtual machine.
+Vorgehen, um Projektarbeit umzusetzen:
 
-First thing they learn is how to change things here in this repo. 
-Such as this sentence itself.
+--- Repo klonen ---
+git clone https://github.com/Foxxx888/pixelwise.git
+
+--- in Ordner gehen und dort den Tag öffnen ---
+cd pixelwise
+git checkout v05-PA-Fuchs-Marius
+
+--- setup-server.sh ausführen ---
+bash setup-server.sh
+
+--- In PostSQL Umgebung wechseln ---
+sudo -i -u postgres
+psql 
+
+--- Nun den Anweisungen der SQL Datei "database/all_tests.sql" folgen ---
+
